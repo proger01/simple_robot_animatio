@@ -34,6 +34,21 @@ h1 {
     width: 200px;
     border-radius: 0 0 50px 50px;
 }
+
+.heart {
+    fill: blue;
+    position: relative;
+    top: 30px;
+    left: 110px;
+    width: 50px;
+}
+
+.heart:hover {
+    fill: red;
+    transition: all 4s;
+    transform: scale(2.5);
+}
+
 .rhand {
     background-color: blue;
     height: 140px;
